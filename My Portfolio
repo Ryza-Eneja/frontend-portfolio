@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio | [Ryza Mae]</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      background: #f8fafc;
+      color: #1e293b;
+      line-height: 1.6;
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 30px 20px;
+    }
+
+    header {
+      text-align: center;
+      padding-bottom: 30px;
+      border-bottom: 2px solid #e2e8f0;
+      margin-bottom: 30px;
+    }
+
+    .profile-pic {
+      width: 150px;
+      border-radius: 12px;
+      margin-bottom: 15px;
+    }
+
+    h1 {
+      font-size: 1.8rem;
+      color: #1e40af;
+      margin-bottom: 5px;
+    }
+
+    .course {
+      color: #475569;
+      font-size: 1.05rem;
+    }
+
+    nav {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    nav a {
+      display: inline-block;
+      margin: 5px 8px;
+      padding: 8px 16px;
+      background: white;
+      color: #2563eb;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: 500;
+      transition: 0.2s;
+    }
+
+    nav a:hover {
+      background: #2563eb;
+      color: white;
+    }
+
+    section {
+      margin-bottom: 40px;
+    }
+
+    h2 {
+      color: #1e40af;
+      margin-bottom: 15px;
+      padding-bottom: 5px;
+      border-bottom: 2px solid #e2e8f0;
+    }
+
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      margin-bottom: 15px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    }
+
+    .project h3 {
+      color: #1e40af;
+      margin-bottom: 8px;
+    }
+
+    .tech {
+      margin-top: 10px;
+      padding: 6px 12px;
+      background: #dbeafe;
+      color: #1e40af;
+      border-radius: 6px;
+      display: inline-block;
+      font-size: 0.9rem;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 50px;
+      padding-top: 20px;
+      border-top: 2px solid #e2e8f0;
+      color: #64748b;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="./profile.jpg" alt="My Profile" class="profile-pic">
+    <h1>[Ryza Mae]</h1>
+    <p class="course">BSIT Student • Software Engineering</p>
+    <p style="margin-top: 10px; color:#64748b;">Learning • Building • Growing</p>
+  </header>
+
+  <nav>
+    <a href="#home">🏠 Home</a>
+    <a href="#education">🎓 Education</a>
+    <a href="#projects">📂 Projects</a>
+    <a href="#contact">📩 Contact</a>
+  </nav>
+
+  <section id="home">
+    <h2>👋 About Me</h2>
+    <div class="card">
+      <p>Hi! I'm an IT student building my skills in web development and programming. I love learning how things work and creating simple, useful projects. I take it step by step — and I'm getting better every day.</p>
+    </div>
+  </section>
+
+  <section id="education">
+    <h2>🎓 Education</h2>
+    <div class="card">
+      <h3>[Nueva Vizcaya State University]</h3>
+      <p><strong>Bachelor of Science in Information Technology</strong></p>
+      <p style="color:#64748b; margin: 5px 0;">2024 – Present</p>
+      <p style="margin-top: 10px;">Currently focusing on Software Engineering and Frontend Web Development — learning HTML, CSS, and JavaScript.</p>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>📂 My Projects</h2>
+
+    <div class="card project">
+      <h3>1. Personal Portfolio Website</h3>
+      <p><strong>Description:</strong> My first portfolio website. It introduces who I am, what I study, and the projects I've made so far — clean, simple, and fully made by me.</p>
+      <p class="tech"><strong>Tech Stack:</strong> HTML, CSS, Vercel</p>
+    </div>
+
+    <div class="card project">
+      <h3>2. Daily Task List</h3>
+      <p><strong>Description:</strong> A simple page where you can add tasks, mark them as done, or remove them. Built to practice basic JavaScript and how websites respond to users.</p>
+      <p class="tech"><strong>Tech Stack:</strong> HTML, CSS, JavaScript</p>
+    </div>
+
+    <div class="card project">
+      <h3>3. Grade Calculator</h3>
+      <p><strong>Description:</strong> A practical tool for students — enter your grades and it instantly computes your average. Simple, fast, and easy to use on any device.</p>
+      <p class="tech"><strong>Tech Stack:</strong> HTML, CSS, JavaScript</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>📩 Contact</h2>
+    <div class="card">
+      <p>📧 Email: ryzamaeeneja@gmail.com</p>
+      <p>💼 GitHub: github.com/Ryza-Eneja</p>
+      <p>📍 Location: Nueva Vizcaya, Philippines</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>✨ Thank you for visiting my portfolio! ✨</p>
+  </footer>
+
+</body>
+</html>
